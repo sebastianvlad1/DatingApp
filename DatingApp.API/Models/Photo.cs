@@ -7,5 +7,7 @@ namespace DatingApp.API.Models
         public string Description { get; set; }
         public System.DateTime DateAdded { get; set; }
         public bool IsMain { get; set; }
+        public User User { get; set; }
+        public int UserId { get; set; }
     }
 }
